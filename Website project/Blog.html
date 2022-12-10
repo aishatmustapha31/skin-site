@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Clinic Website Design</title>
+    <link rel="stylesheet" href="../Website project/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+         <!-- <a href="index.html"><img src="images/logo2.jpg" alt=""> </a>-->
+            <h2 class="logo">AyeeshEmporium</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./AboutUs.html">ABOUT</a></li> 
+                    <li><a href="./Services.html">SERVICES</a></li>
+                    <li><a href="./Blog.html">BLOG</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> <br> 
+
+         <h1>To Book A Session With Us</h1>
+    </section>
+
+             <!----Blog Page Content-->
+
+     <div class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="../Website project/images/AdobeStock_446972052_Preview.jpeg" alt="">
+                <h2>To Book A Session With Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptates modi voluptatibus dicta temporibus corporis cupiditate exercitationem at! Necessitatibus tempora exercitationem atque nostrum aliquid. Id eius temporibus enim magnam. consectetur adipisicing elit. Suscipit repellat voluptates modi voluptatibus dicta temporibus corporis cupiditate exercitationem at! Necessitatibus tempora exercitationem atque nostrum aliquid. Id eius temporibus enim magnam.</p>
+                    <br>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptate nihil quis soluta accusamus molestias eligendi harum quidem dignissimos quaerat veniam aliquam eius, fugiat odio eum? Ducimus eos voluptate vero.
+                        Ab repellendus ratione, mollitia architecto illo modi distinctio veniam dicta rerum fugiat repellat magni fuga consectetur porro sapiente molestiae animi ducimus. Quae magnam molestias eaque explicabo omnis sed amet tempore?
+                        Voluptas eum labore dolorem voluptatibus vel officia autem voluptates nisi dolores nulla ut, expedita ad placeat rerum eos asperiores aliquid, dolorum est assumenda numquam iusto quod voluptate. Sit, unde nesciunt.
+                        
+                    </p>
+                    <br>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ipsa rerum totam molestiae magni esse illo pariatur, autem aperiam tempora repudiandae earum est quis suscipit, nulla unde! Vitae, vero officia.
+                        Enim doloribus nulla temporibus adipisci non nihil quo nesciunt voluptates accusantium dolores quos reprehenderit officia deserunt debitis esse ullam totam, architecto impedit inventore! Iste cupiditate velit a nostrum, quisquam voluptate.
+                        Libero magnam, necessitatibus nobis sed nam expedita natus debitis, obcaecati aliquam labore commodi, doloribus enim praesentium illo facere numquam fugit rem? Quae, ex totam qui repellendus natus earum eum perspiciatis.
+                        
+                    </p>
+
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="Email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn btn">Post Comment</button>
+                        </form>
+                    </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Services We Provide</h3>
+                <div>
+                    <span>Skin Therapy</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Full Body Massage</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Teeth Whitening</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>Spa</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Salon Session</span>
+                    <span>60</span>
+                </div>
+                <div>
+                    <span>Dematologist session</span>
+                    <span>20</span>
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+
+
+             
+              
+
+
+       <!----Footer-->
+
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minus architecto aliquam. Eum sint recusandae <br> tempora id quia eius odit temporibus nostrum quam adipisci. </p>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        </div>
+
+        <p>Made by Aishat Mustapha</p>
+
+       </section>
+
+
+
+
+<!--javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

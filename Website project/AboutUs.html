@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Clinic Website Design</title>
+    <link rel="stylesheet" href="../Website project/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+         <!-- <a href="index.html"><img src="images/logo2.jpg" alt=""> </a>-->
+            <h2 class="logo">AyeeshEmporium</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./AboutUs.html">ABOUT</a></li> 
+                    <li><a href="./Services.html">SERVICES</a></li>
+                    <li><a href="./Blog.html">BLOG</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> <br> 
+
+         <h1>About Us</h1>
+    </section>
+
+     <!------about us content---->
+
+     <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best skin care <br> <br> clinic</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit repellendus voluptatibus, voluptatum facere consectetur praesentium necessitatibus quia quae? Aut possimus magni, dolorem similique reprehenderit quibusdam porro vitae sunt quis magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestias et deleniti excepturi delectus, recusandae quibusdam saepe est sit perferendis ad maiores! Corporis quidem iure accusantium. Quia at blanditiis dolorum!</p>
+                <a href="" class="hero-btn btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="../Website project/images/bookings.jpeg" alt="">
+            </div>
+        </div>
+
+     </section>
+    
+
+
+       <!----Footer-->
+
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minus architecto aliquam. Eum sint recusandae <br> tempora id quia eius odit temporibus nostrum quam adipisci. </p>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        </div>
+
+        <p>Made by Aishat Mustapha</p>
+
+       </section>
+
+
+
+
+<!--javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

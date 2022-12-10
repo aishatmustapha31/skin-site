@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Clinic Website Design</title>
+    <link rel="stylesheet" href="../Website project/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header-c"> 
+        <nav>
+         <!-- <a href="index.html"><img src="images/logo2.jpg" alt=""> </a>-->
+            <h2 class="logo">AyeeshEmporium</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./AboutUs.html">ABOUT</a></li> 
+                    <li><a href="./Services.html">SERVICES</a></li>
+                    <li><a href="./Blog.html">BLOG</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> <br> 
+
+         <h1>Contact Us</h1>
+    </section>
+
+              <!----Contact-->
+
+              <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31518.53725805054!2d7.449985710962943!3d9.080415561118992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a5637e8c4e5%3A0x99ee4ca23378005!2sWuse%202%2C%20Abuja!5e0!3m2!1sen!2sng!4v1668695183586!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              </section>
+
+
+
+              <section class="contact-us">
+
+                <div class="row">
+                    <div class="contact-col">
+                        <div><a href="#"><ion-icon name="logo-home"></ion-icon></a>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Wuse 2, Abuja</p>
+                        </span>
+                        </div>
+
+                        <div><a href="#"><ion-icon name="logo-phone"></ion-icon></a>
+                            <span>
+                                <h5>+234 24563453</h5>
+                                <p>Monday to Saturday, 9AM to 6PM</p>
+                            </span>
+                        </div>
+    
+                        <div><a href="#"><ion-icon name="logo-envelope-o"></ion-icon></a>
+                            <span>
+                                <h5>info@AyeeshEmporium.com</h5>
+                                <p>Email us your query</p>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-col">
+                        <form action="">
+                            <input type="text" placeholder="Enter your name" required>
+                            <input type="email" placeholder="Enter Email Address" required>
+                            <input type="text" placeholder="What Service Do You Want" required>
+                            <textarea rows="5" placeholder="Message"></textarea>
+                            <button type="Submit" class="hero-btn btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    
+
+
+                    
+                </div>
+
+              </section>
+
+
+    
+
+
+       <!----Footer-->
+
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minus architecto aliquam. Eum sint recusandae <br> tempora id quia eius odit temporibus nostrum quam adipisci. </p>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        </div>
+
+        <p>Made by Aishat Mustapha</p>
+
+       </section>
+
+
+
+
+<!--javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
